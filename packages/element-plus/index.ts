@@ -37,9 +37,11 @@ import ElDialog from '@element-plus/dialog'
 import ElCalendar from '@element-plus/calendar'
 import ElInfiniteScroll from '@element-plus/infinite-scroll'
 import ElDrawer from '@element-plus/drawer'
+import ElForm from '@element-plus/form'
 import ElUpload from '@element-plus/upload'
 import ElTree from '@element-plus/tree'
 import ElColorPicker from '@element-plus/color-picker'
+import ElSelect from '@element-plus/select'
 
 export {
   ElAlert,
@@ -79,12 +81,14 @@ export {
   ElCalendar,
   ElInfiniteScroll,
   ElDrawer,
+  ElForm,
   ElUpload,
   ElTree,
   ElColorPicker,
+  ElSelect,
 }
 
-const install = (app: App): void =>  {
+const install = (app: App): void => {
   ElAlert(app)
   ElAvatar(app)
   ElBacktop(app)
@@ -126,6 +130,7 @@ const install = (app: App): void =>  {
   ElUpload(app)
   ElTree(app)
   ElColorPicker(app)
+  ElSelect(app)
 }
 
 const elementUI = {
